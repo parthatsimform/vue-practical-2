@@ -72,7 +72,12 @@ export default {
 }
 
 .notAvailable {
-    background-color: #1a4d01;
+    background-color: #ff6161;
     cursor: not-allowed;
+}
+
+.notAvailable:hover {
+    color: white;
+    background-color: #ff6161;
 }
 </style>
